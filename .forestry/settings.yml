@@ -27,14 +27,14 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: yml
+- type: document
+  path: config.toml
+  label: Configuration
 - type: directory
   path: content/contact
   label: Contact
   create: none
   match: "*"
-- type: document
-  path: config.toml
-  label: Configuration
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
